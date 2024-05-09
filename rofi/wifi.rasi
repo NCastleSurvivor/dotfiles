@@ -1,0 +1,16 @@
+* {
+    background-color: #1a1a1a;
+    foreground-color: #ffffff;
+    border-color: #ffffff;
+}
+
+inputbar {
+    children: [ prompt, entry ];
+    border-color: #ffffff;
+}
+
+listview {
+    scrollbar: false;
+}
+
+

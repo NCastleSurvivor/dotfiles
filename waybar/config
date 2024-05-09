@@ -1,0 +1,152 @@
+{
+	/* settings and defining what modules we want being displayed */
+	"gtk-layer-shell": true,
+	"reload_style_on_change": true,
+	"layer": "top",
+	"modules-left": ["custom/launcher", "cpu", "temperature", "memory"],
+	"modules-center": ["hyprland/workspaces"],
+	"modules-right": ["backlight", "wireplumber","bluetooth", "network", "battery", "clock"],
+	"height": 22,
+
+	/* module configuration */
+    	"custom/launcher":{
+        	"format": " ",
+        	"tooltip": false,
+        	"on-click": "~/.config/hypr/scripts/logoutlaunch.sh 2",
+        	"on-click-right": "~/.config/hypr/scripts/logoutlaunch.sh 1"
+    	},
+    	"cpu": {
+     		"interval": 5,
+        	"format": " {usage}%",
+        	"max-length": 10
+    	},
+    	"temperature": {
+       		"interval": 5,
+        	"tooltip": false,
+        	"format": " {temperatureC}°C",
+        	"max-length": 10,
+        	"thermal-zone": 1,
+        	"input-filename": "temp1_input",
+        	"hwon-path": "sys/devices/platform/coretemp.0/hwon/hwon5/temp1_input"
+    	},
+    	"memory": {
+        	"interval": 10,
+        	"format": " {}%",
+        	"max-length": 10
+    	},
+        "hyprland/workspaces": {
+		"format": "{icon}",
+          	"format-icons": {
+          	"1": "",
+          	"2": "󰏆",
+                "3": "󱐏",
+          	"4": "󱛖",
+          	"5": "",
+          	"6": "",
+          	"7": "󱐃",
+          	"8": "",
+          	"9": "",
+          	"10": "",
+          	"default": ""
+		},
+          	"on-click": "activate"
+        },
+	"backlight": {
+		"tooltip": false,
+ 		"interval":1,
+        	"on-scroll-up": "brightnessctl set 5%+",
+        	"on-scroll-down": "brightnessctl set 5%-",
+       		"interval": 2,
+        	"align": 0,
+        	"rotate": 0,
+        	"format": "{icon} {percent}%",
+        	"format-icons": ["", "", "", "", "", "", "", "", ""],
+        	"on-click": "",
+        	"on-scroll-up": "brightnessctl set 5%+",
+        	"on-scroll-down": "brightnessctl set 5%-",
+        	"smooth-scrolling-threshold": 1
+	},
+	"wireplumber": {
+		"format": "{icon}  {volume}%",
+		"format-muted": "󰖁",
+		"max-volume": "100",
+		"on-click": "$HOME/.config/hypr/scripts/volumecontrol.sh --toggle",
+		"scroll-step": 5.0,
+		"format-icons": ["", "", ""]
+		},
+	"bluetooth": {
+		"format": "  {status}",
+		"format-alt": " {device_alias} {device_battery_percentage}%",
+		"format-device-preference": [ "device1", "device2" ], // preference list deciding the displayed device
+		//"tooltip-format": "{controller_alias}\t{controller_address}\n\n{num_connections} connected",
+		"tooltip-format-connected": "{controller_alias}\t{controller_address}\t{device_battery_percentage}%",
+		//"tooltip-format-enumerate-connected": "{device_alias}\t{device_address}",
+		//"tooltip-format-enumerate-connected-battery": "{device_alias}\t{device_address}\t{device_battery_percentage}%"
+		},
+	"network": {
+		"tooltip": false,
+                "format-wifi": "{icon} {essid}",
+                "format-alt": "{icon}",
+                "format-alt-click": "click-right",
+                "format-disconnected": "{icon} offline",
+                "margin-top": 9,
+                "margin-bottom": 9,
+                "margin-right": 9,
+                "margin-left": 9,
+                "format-icons": {
+			"wifi": ["  "],
+                  	"ethernet": [" "],
+                  	"disconnected": [""]
+                },
+                "on-click": "bash ~/.config/hypr/scripts/wifimenu.sh"
+	},
+    	"battery": {
+        	"states": {
+            		"good": 95,
+            		"warning": 30,
+            		"critical": 20
+		},
+        	"format": "{icon} {capacity}%",
+        	"format-charging": " {capacity}%",
+        	"format-plugged": " {capacity}%",
+       		"format-alt": "{time} {icon}",
+        	"format-icons": [" ", " ", " ", " ", " "]
+    	},
+    "clock": {
+        "format": "{:%R}",
+        "rotate": 0,
+	//"max-length": 50,
+	"format-alt": "{:%R 󰃭 %d·%m·%y}",
+        //"tooltip-format": "<tt>{calendar}</tt>",
+	"tooltip-format": "<span size='7pt' font='LXGW WenKai Mono'>{calendar}</span>",
+	//"tooltip-format": "<tt><small>{calendar}</small></tt>",
+        "calendar": {
+            "mode": "year",
+            "mode-mon-col": 3,
+            "weeks-pos": "right",
+            "on-scroll": 1,
+            "on-click-right": "mode",
+            "format": {
+	    		"months":     "<span color='#ffead3'><b>{}</b></span>",
+			"days":       "<span color='#ecc6d9'><b>{}</b></span>",
+			//"weeks":      "<span color='#99ffdd'><b>W{}</b></span>",
+			"weekdays":   "<span color='#ffcc66'><b>{}</b></span>",
+			"today":      "<span color='#ff6699'><b><u>{}</u></b></span>"
+            }
+	},
+        "actions": {
+            "on-click-right": "mode",
+            "on-click-forward": "tz_up",
+            "on-click-backward": "tz_down",
+            "on-scroll-up": "shift_up",
+            "on-scroll-down": "shift_down"
+        }
+    },
+    	"custom/power":{
+        	"tooltip": false,
+        	"font": "Awesome",
+        	"format": "",
+        	"on-click": "~/.config/hypr/scripts/logoutlaunch.sh 2",
+        	"on-click-right": "~/.config/hypr/scripts/logoutlaunch.sh 1"
+    	},
+}

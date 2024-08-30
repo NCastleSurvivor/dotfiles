@@ -1,0 +1,27 @@
+# 内核 && 系统
+sys-kernel/gentoo-sources experimental
+sys-kernel/installkernel -systemd
+sys-kernel/linux-firmware -initramfs redistributable
+media-libs/libsdl2 gles2 video wayland sound
+>=x11-libs/libdrm-2.4.120 video_cards_radeon
+>=sys-boot/grub-2.12-r4 mount
+media-sound/pulseaudio -daemon
+media-video/pipewire bluetooth pipewire-alsa sound-server systemd
+
+# 用户软件
+net-im/tencent-qq bwrap -liteloader
+#media-fonts/nerd-fonts firacode
+app-office/libreoffice-l10n l10n_zh-CN
+www-client/brave-bin l10n_zh-CN l10n_en-US
+
+
+# waybar
+gui-apps/waybar experimental jack network pipewire wifi tray
+>=dev-libs/libdbusmenu-16.04.0-r2 gtk3
+>=gui-libs/wlroots-0.17.0 -drm
+
+# program
+dev-lang/rust-bin  clippy profiler rust-analyzer rust-src
+
+# neovim
+app-editors/neovim  lua_single_target_luajit nvimpager -test

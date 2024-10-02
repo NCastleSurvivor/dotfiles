@@ -41,9 +41,10 @@
 
 "modules-center": [
     //"hyprland/window",
-    "clock",
+    //"clock",
     "custom/separator#dot",
-    "hyprland/workspaces#4",
+    "hyprland/workspaces#roman",
+    "custom/separator#dot",
 	],
     
 "modules-right": [

@@ -50,7 +50,8 @@
 "modules-right": [
     "network#speed",
     //"bluetooth",
-	"custom/weather",
+    "clock",
+	//"custom/weather",
     //"battery", 
     //"backlight",
     //"pulseaudio",
@@ -59,41 +60,41 @@
     //"keyboard-state",
     "custom/power",
     ],
-},
+}
 
-{
-"include": [
-  "$HOME/.config/waybar/Modules",
-  "$HOME/.config/waybar/ModulesWorkspaces",
-  "$HOME/.config/waybar/ModulesCustom",
-  "$HOME/.config/waybar/ModulesGroups",
-  ],
-"layer": "top",
-"position": "left",
-"height": 650,
-"margin-top": 8,
-"margin-bottom": 8,
-"margin-left": 3,
+//{
+//"include": [
+//  "$HOME/.config/waybar/Modules",
+//  "$HOME/.config/waybar/ModulesWorkspaces",
+//  "$HOME/.config/waybar/ModulesCustom",
+//  "$HOME/.config/waybar/ModulesGroups",
+//  ],
+//"layer": "top",
+//"position": "left",
+//"height": 650,
+//"margin-top": 8,
+//"margin-bottom": 8,
+//"margin-left": 3,
 //"margin-right": 3,
-"spacing": 3,
-"fixed-center": true,
-"ipc": true,
+//"spacing": 3,
+//"fixed-center": true,
+//"ipc": true,
 //"gtk-layer-shell": true,
    
-"modules-left": [
-    "custom/lock",
-    "idle_inhibitor",   
-    ],
+//"modules-left": [
+//    "custom/lock",
+//    "idle_inhibitor",   
+//    ],
     
-"modules-center": [
-   "clock#vertical",
-    ],
+//"modules-center": [
+//   "clock#vertical",
+//    ],
     
-"modules-right": [
-		"mpris",
-		"custom/swaync",
-    "tray",
-    "custom/light_dark",
-    ],
-    
-}]
+//"modules-right": [
+//		"mpris",
+//		"custom/swaync",
+//    "tray",
+//    "custom/light_dark",
+//    ],
+//}    
+]

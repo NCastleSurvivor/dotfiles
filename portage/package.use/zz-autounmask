@@ -7,7 +7,7 @@ media-libs/libsdl2 gles2 video wayland sound
 >=sys-boot/grub-2.12-r4 mount
 media-sound/pulseaudio -daemon
 # open dbus support for obs-studio in pipewire
-media-video/pipewire bluetooth pipewire-alsa sound-server systemd dbus
+media-video/pipewire bluetooth pipewire-alsa sound-server systemd dbus -jack-sdk jack-client 
 
 # 用户软件
 net-im/tencent-qq bwrap -liteloader

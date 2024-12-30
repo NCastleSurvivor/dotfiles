@@ -1,9 +1,0 @@
-# Rime user dictionary
-#@/db_name	luna_pinyin
-#@/db_type	userdb
-#@/rime_version	1.12.0
-#@/tick	5
-#@/user_id	0559f520-d689-41c4-b7df-b0e268952279
-ci ku 	詞庫	c=2 d=1.99005 t=4
-pei zhi 	配置	c=1 d=1 t=1
-tui jian 	推薦	c=2 d=1.99005 t=5

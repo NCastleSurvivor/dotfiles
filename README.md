@@ -33,6 +33,6 @@
 |    system information tool    |           fastfetch           |
 |       Bluetooth Manager       |            blueman            |
 |   Screen recording software   |          obs-studio           |
-
+|   command-line fuzzy finder   |             fzf               |
 
 

@@ -196,4 +196,9 @@
 	"interval": "once",
 	"tooltip": false
 },
+"custom/waylrc": {
+	"exec": "~/.config/waybar/bin/waylrc",
+	"return-type": "json",
+	"escape": true
+},
 }

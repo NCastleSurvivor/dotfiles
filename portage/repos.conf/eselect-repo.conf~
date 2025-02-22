@@ -1,0 +1,18 @@
+# created by eselect-repo
+
+[gentoo-zh]
+location = /var/db/repos/gentoo-zh
+sync-type = git
+sync-uri = https://mirror.ghproxy.com/https://github.com/gentoo-mirror/gentoo-zh.git
+
+
+[guru]
+location = /var/db/repos/guru
+sync-type = git
+sync-uri = https://mirror.ghproxy.com/https://github.com/gentoo-mirror/guru.git
+
+
+[gentoobr]
+location = /var/db/repos/gentoobr
+sync-type = git
+sync-uri = https://mirror.ghproxy.com/https://github.com/gentoo-mirror/gentoobr.git

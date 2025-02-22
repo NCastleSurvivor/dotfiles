@@ -1,0 +1,151 @@
+19:54:13.940: Platform: Wayland
+19:54:13.940: CPU Name: AMD Ryzen 7 4800H with Radeon Graphics
+19:54:13.940: CPU Speed: 1906.524MHz
+19:54:13.941: Physical Cores: 8, Logical Cores: 16
+19:54:13.941: Physical Memory: 39529MB Total, 35419MB Free
+19:54:13.941: Kernel Version: Linux 6.12.1-gentoo
+19:54:13.941: Distribution: Gentoo "2.17"
+19:54:13.941: Desktop Environment: Hyprland (Hyprland)
+19:54:13.941: Session Type: wayland
+19:54:13.943: Qt Version: 6.7.3 (runtime), 6.7.3 (compiled)
+19:54:13.943: Portable mode: false
+19:54:13.968: OBS 30.2.3 (linux)
+19:54:13.968: ---------------------------------
+19:54:13.968: ---------------------------------
+19:54:13.968: audio settings reset:
+19:54:13.968: 	samples per sec: 48000
+19:54:13.968: 	speakers:        2
+19:54:13.968: 	max buffering:   960 milliseconds
+19:54:13.968: 	buffering type:  dynamically increasing
+19:54:13.973: ---------------------------------
+19:54:13.973: Initializing OpenGL...
+19:54:13.973: Using EGL/Wayland
+19:54:14.011: Initialized EGL 1.5
+19:54:14.028: Loading up OpenGL on adapter AMD AMD Radeon Graphics (radeonsi, renoir, LLVM 18.1.8, DRM 3.59, 6.12.1-gentoo)
+19:54:14.028: OpenGL loaded successfully, version 4.6 (Core Profile) Mesa 24.2.7, shading language 4.60
+19:54:14.148: ---------------------------------
+19:54:14.148: video settings reset:
+19:54:14.148: 	base resolution:   1920x1080
+19:54:14.148: 	output resolution: 1920x1080
+19:54:14.148: 	downscale filter:  Bicubic
+19:54:14.148: 	fps:               60/1
+19:54:14.148: 	format:            NV12
+19:54:14.148: 	YUV mode:          Rec. 709/Partial
+19:54:14.148: NV12 texture support enabled
+19:54:14.148: P010 texture support not available
+19:54:14.154: ---------------------------------
+19:54:14.242: [pipewire] Available capture sources:
+19:54:14.242: [pipewire]     - Monitor source
+19:54:14.242: [pipewire]     - Window source
+19:54:14.260: v4l2loopback not installed, virtual camera not registered
+19:54:14.299: NVENC supported
+19:54:14.299: LIBVA_DRIVER_NAME variable is set, this could prevent FFmpeg VAAPI from working correctly
+19:54:14.299: FFmpeg VAAPI H264 encoding not supported
+19:54:14.299: FFmpeg VAAPI AV1 encoding not supported
+19:54:14.299: FFmpeg VAAPI HEVC encoding not supported
+19:54:14.372: ---------------------------------
+19:54:14.372:   Loaded Modules:
+19:54:14.372:     text-freetype2.so
+19:54:14.372:     rtmp-services.so
+19:54:14.372:     obs-x264.so
+19:54:14.372:     obs-vst.so
+19:54:14.372:     obs-transitions.so
+19:54:14.372:     obs-outputs.so
+19:54:14.372:     obs-filters.so
+19:54:14.372:     obs-ffmpeg.so
+19:54:14.372:     linux-v4l2.so
+19:54:14.372:     linux-pipewire.so
+19:54:14.372:     linux-jack.so
+19:54:14.372:     linux-capture.so
+19:54:14.372:     linux-alsa.so
+19:54:14.372:     image-source.so
+19:54:14.373:     frontend-tools.so
+19:54:14.373: ---------------------------------
+19:54:14.373: ---------------------------------
+19:54:14.373: Available Encoders:
+19:54:14.373:   Video Encoders:
+19:54:14.373: 	- ffmpeg_nvenc (NVIDIA NVENC H.264 (FFmpeg))
+19:54:14.373: 	- ffmpeg_hevc_nvenc (NVIDIA NVENC HEVC (FFmpeg))
+19:54:14.373: 	- obs_x264 (x264)
+19:54:14.373:   Audio Encoders:
+19:54:14.373: 	- ffmpeg_aac (FFmpeg AAC)
+19:54:14.373: 	- ffmpeg_opus (FFmpeg Opus)
+19:54:14.373: 	- ffmpeg_pcm_s16le (FFmpeg PCM (16位))
+19:54:14.373: 	- ffmpeg_pcm_s24le (FFmpeg PCM (24位))
+19:54:14.373: 	- ffmpeg_pcm_f32le (FFmpeg PCM (32位浮点))
+19:54:14.373: 	- ffmpeg_alac (FFmpeg ALAC (24位))
+19:54:14.373: 	- ffmpeg_flac (FFmpeg FLAC (16位))
+19:54:14.373: ==== Startup complete ===============================================
+19:54:14.398: All scene data cleared
+19:54:14.398: ------------------------------------------------
+19:54:14.400: PipeWire initialized
+19:54:14.401: Switched to scene '场景'
+19:54:14.401: ------------------------------------------------
+19:54:14.401: Loaded scenes:
+19:54:14.401: - scene '场景':
+19:54:14.401:     - source: '屏幕采集(PipeWire)' (pipewire-screen-capture-source)
+19:54:14.401: ------------------------------------------------
+19:54:14.473: [pipewire] Screencast session created
+19:54:16.090: QWidgetWindow(0x5e5f16fef810, name="previewWindow") must be a top level window.
+19:54:17.348: [pipewire] Asking for monitor and window
+19:54:17.350: [pipewire] source selected, setting up screencast
+19:54:17.356: [pipewire] Server version: 1.2.7
+19:54:17.356: [pipewire] Library version: 1.2.7
+19:54:17.356: [pipewire] Header version: 1.2.7
+19:54:17.356: [pipewire] Created stream 0x5e5f1940cf40
+19:54:17.356: [pipewire] Stream 0x5e5f1940cf40 state: "connecting" (error: none)
+19:54:17.357: [pipewire] Playing stream 0x5e5f1940cf40
+19:54:17.357: [pipewire] Stream 0x5e5f1940cf40 state: "paused" (error: none)
+19:54:17.360: [pipewire] Negotiated format:
+19:54:17.360: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+19:54:17.360: [pipewire]     Modifier: 0x0
+19:54:17.360: [pipewire]     Size: 1920x1080
+19:54:17.360: [pipewire]     Framerate: 0/1
+19:54:17.362: [pipewire] Negotiated format:
+19:54:17.362: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+19:54:17.362: [pipewire]     Modifier: 0x20000044051ba01
+19:54:17.362: [pipewire]     Size: 1920x1080
+19:54:17.362: [pipewire]     Framerate: 0/1
+19:54:17.364: [pipewire] Stream 0x5e5f1940cf40 state: "streaming" (error: none)
+19:54:17.366: Cannot create EGLImage: Arguments are inconsistent (for example, a valid context requires buffers not supplied by a valid surface).
+19:54:17.366: [pipewire] Renegotiating stream
+19:54:17.366: [pipewire] Stream 0x5e5f1940cf40 state: "paused" (error: none)
+19:54:17.366: [pipewire] Negotiated format:
+19:54:17.366: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+19:54:17.366: [pipewire]     Modifier: 0x20000044051ba01
+19:54:17.366: [pipewire]     Size: 1920x1080
+19:54:17.366: [pipewire]     Framerate: 0/1
+19:54:17.367: [pipewire] Negotiated format:
+19:54:17.367: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+19:54:17.367: [pipewire]     Modifier: 0x20000044051b901
+19:54:17.367: [pipewire]     Size: 1920x1080
+19:54:17.367: [pipewire]     Framerate: 0/1
+19:54:17.371: [pipewire] Stream 0x5e5f1940cf40 state: "streaming" (error: none)
+19:54:17.383: Cannot create EGLImage: Arguments are inconsistent (for example, a valid context requires buffers not supplied by a valid surface).
+19:54:17.383: [pipewire] Renegotiating stream
+19:54:17.384: [pipewire] Stream 0x5e5f1940cf40 state: "paused" (error: none)
+19:54:17.384: [pipewire] Negotiated format:
+19:54:17.384: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+19:54:17.384: [pipewire]     Modifier: 0x20000044051b901
+19:54:17.384: [pipewire]     Size: 1920x1080
+19:54:17.384: [pipewire]     Framerate: 0/1
+19:54:17.384: [pipewire] Negotiated format:
+19:54:17.384: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+19:54:17.385: [pipewire]     Modifier: 0x200000440517901
+19:54:17.385: [pipewire]     Size: 1920x1080
+19:54:17.385: [pipewire]     Framerate: 0/1
+19:54:17.388: [pipewire] Stream 0x5e5f1940cf40 state: "streaming" (error: none)
+19:54:17.400: Cannot create EGLImage: Arguments are inconsistent (for example, a valid context requires buffers not supplied by a valid surface).
+19:54:17.400: [pipewire] Renegotiating stream
+19:54:17.401: [pipewire] Stream 0x5e5f1940cf40 state: "paused" (error: none)
+19:54:17.401: [pipewire] Negotiated format:
+19:54:17.401: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+19:54:17.401: [pipewire]     Modifier: 0x200000440517901
+19:54:17.401: [pipewire]     Size: 1920x1080
+19:54:17.401: [pipewire]     Framerate: 0/1
+19:54:17.402: [pipewire] Negotiated format:
+19:54:17.402: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+19:54:17.402: [pipewire]     Modifier: 0x200000000401a01
+19:54:17.402: [pipewire]     Size: 1920x1080
+19:54:17.402: [pipewire]     Framerate: 0/1
+19:54:17.404: [pipewire] Stream 0x5e5f1940cf40 state: "streaming" (error: none)

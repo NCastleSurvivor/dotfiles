@@ -9,6 +9,8 @@ media-sound/pulseaudio -daemon
 # open dbus support for obs-studio in pipewire
 media-video/pipewire bluetooth pipewire-alsa sound-server systemd dbus -jack-sdk jack-client 
 
+app-misc/ollama cuda -video_cards_amdgpu
+
 # 用户软件
 net-im/tencent-qq bwrap -liteloader
 #media-fonts/nerd-fonts firacode
@@ -16,7 +18,7 @@ app-office/libreoffice-l10n l10n_zh-CN
 www-client/brave-bin l10n_zh-CN l10n_en-US
 
 # fcitx
-app-i18n/fcitx-meta rime
+app-i18n/fcitx-meta rime -chinese-addons
 app-i18n/rime-data extra
 
 # kate 

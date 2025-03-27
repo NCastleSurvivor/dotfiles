@@ -107,25 +107,31 @@
 	"tooltip": true,
 	"on-click": "blueman-manager",
 },
+//"clock": {
+//	"interval": 1,
+//    //"format": " {:%I:%M %p}", // AM PM format
+//    "format": " {:%H:%M:%S}", // 24H
+//	"format-alt": " {:%H:%M   %Y, %d %B, %A}",
+//	"tooltip-format": "<tt><small>{calendar}</small></tt>",
+//	"calendar": {
+//		"mode": "year",
+//		"mode-mon-col": 3,
+//		"weeks-pos": "right",
+//		"on-scroll": 1,
+//		"format": {
+//			"months": "<span color='#ffead3'><b>{}</b></span>",
+//			"days": "<span color='#ecc6d9'><b>{}</b></span>",
+//			"weeks": "<span color='#99ffdd'><b>W{}</b></span>",
+//			"weekdays": "<span color='#ffcc66'><b>{}</b></span>",
+//			"today": "<span color='#ff6699'><b><u>{}</u></b></span>"
+//		}
+//	}
+//},
 "clock": {
 	"interval": 1,
-    //"format": " {:%I:%M %p}", // AM PM format
-    "format": " {:%H:%M:%S}", // 24H
-	"format-alt": " {:%H:%M   %Y, %d %B, %A}",
-	"tooltip-format": "<tt><small>{calendar}</small></tt>",
-	"calendar": {
-		"mode": "year",
-		"mode-mon-col": 3,
-		"weeks-pos": "right",
-		"on-scroll": 1,
-		"format": {
-			"months": "<span color='#ffead3'><b>{}</b></span>",
-			"days": "<span color='#ecc6d9'><b>{}</b></span>",
-			"weeks": "<span color='#99ffdd'><b>W{}</b></span>",
-			"weekdays": "<span color='#ffcc66'><b>{}</b></span>",
-			"today": "<span color='#ff6699'><b><u>{}</u></b></span>"
-		}
-	}
+	"format": "<b>{:%Y年%m月%d日 %H:%M:%S %A}</b>",
+	"tooltip": true,
+	"tooltip-format": "<big>{:%Y年%m月%d日}</big>\n<tt><small>{calendar}</small></tt>",
 },
 "actions": {
 	"on-click-right": "mode",

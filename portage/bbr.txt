@@ -1,2 +1,0 @@
-创建文件夹:/etc/sysctl.d
-把bbr.conf移入文件夹中 

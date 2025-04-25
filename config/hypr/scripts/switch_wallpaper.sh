@@ -7,7 +7,7 @@ wallpaper_dir="$HOME/.config/hypr/wallpaper"
 wallpapers=("$wallpaper_dir"/*)
 
 # 随机选择一个图片文件
-random_wallpaper="${wallpapers[RANDOM % ${#wallpapers[@]}]}"
+random_wallpaper="${wallpapers[RANDOM % ${#wallpapers[@]} + 1]}"
 
 # 使用swaybg设置壁纸
 swaybg -i "$random_wallpaper" -m fill

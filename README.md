@@ -10,8 +10,8 @@
 |      Input method framework       |          fcitx-meta           |
 |           File Manager            |        ~~thunar~~,yazi        |
 |            Lockscreen             | ~~Gtklock,Swaylock~~ hyprlock |
-|               Shell               |              zsh              |
-|          Shell Framework          |           Oh-My-Zsh           |
+|               Shell               |            ~~zsh~~            |
+|          Shell Framework          |   ~~Oh-My-Zsh~~ , starship    |
 |           Music Player            |  ~~MusicFox~~ , yesplaymusic  |
 |            Text Editor            |            neovim             |
 |               Fonts               |    Nerd-Fonts,LXGW-WENKAI     |

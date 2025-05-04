@@ -1,10 +1,13 @@
 -- LSPs list
 local servers = {
 	"lua_ls",
+	"basedpyright",
 	"clangd",
+	"marksman",
+	"ruff",
 	--"gopls",
 	"pylsp",
-	--"cssls",
+	--"css-lsp",
 }
 
 return {

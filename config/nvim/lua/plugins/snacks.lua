@@ -4,7 +4,7 @@ return {
   lazy = false,
   -- dependencies = { 'stevearc/aerial.nvim', opts = {} },
   config = function()
-    require 'core.custom.config.snacks'
+    require 'custom.config.snacks'
   end,
   keys = {
     {

@@ -10,7 +10,7 @@
 |      Input method framework       |          fcitx-meta           |
 |           File Manager            |        ~~thunar~~,yazi        |
 |            Lockscreen             | ~~Gtklock,Swaylock~~ hyprlock |
-|               Shell               |            ~~zsh~~            |
+|               Shell               |            ~~zsh~~, fish      |
 |          Shell Framework          |   ~~Oh-My-Zsh~~ , starship    |
 |           Music Player            |  ~~MusicFox~~ , yesplaymusic  |
 |            Text Editor            |            neovim             |

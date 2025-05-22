@@ -14,7 +14,7 @@
 |          Shell Framework          |   ~~Oh-My-Zsh~~ , starship    |
 |           Music Player            |  ~~MusicFox~~ , yesplaymusic  |
 |            Text Editor            |            neovim             |
-|               Fonts               |    Nerd-Fonts,LXGW-WENKAI     |
+|               Fonts               |    Nerd-Fonts,LXGW-WENKAI,misans,source-han-serif/sans     |
 |           Image Viewer            |          ~~Joshuto~~          |
 |        Screenshot Software        |          Grim,Slurp           |
 |             Clipboard             |     Wl-clipboard,cliphist     |

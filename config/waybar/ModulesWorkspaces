@@ -158,7 +158,7 @@
 		"title<.*amazon.*>": " ",
 		"title<.*reddit.*>": " ",
 		"title<.*Picture-in-Picture.*>": " ",
-		"class<firefox|org.mozilla.firefox|brave|brave-bin>": " ",
+		"class<firefox|org.mozilla.firefox|brave|brave-bin>": " ",
 		"class<kitty|konsole>": " ",
 		"class<fcitx|fcitx-meta>": "󰻀 ",
 		"class<wechat>": " ",

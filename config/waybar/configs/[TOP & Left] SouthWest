@@ -37,7 +37,7 @@
 	],
     
 "modules-right": [
-    "custom/waylrc",
+    //"custom/waylrc",
     "network#speed",
     "clock",
     "wireplumber", 

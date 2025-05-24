@@ -162,6 +162,7 @@
 		"class<kitty|konsole>": " ",
 		"class<fcitx|fcitx-meta>": "󰻀 ",
 		"class<wechat>": " ",
+		"class<wofi>": " ",
 		"class<apifox>": "󱂛 ",
 		"class<blueman|bluetooth>": "󰂰 ",
 		"class<wps|wps-office>": "󰏆 ",

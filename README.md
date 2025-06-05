@@ -16,7 +16,7 @@
 |            Text Editor            |            neovim             |
 |               Fonts               |    Nerd-Fonts,LXGW-WENKAI,misans,source-han-serif/sans     |
 |           Image Viewer            |          ~~Joshuto~~          |
-|        Screenshot Software        |          Grim,Slurp           |
+|        Screenshot Software        |          ~~Grim,Slurp~~ hyprshot           |
 |             Clipboard             |     Wl-clipboard,cliphist     |
 |          Display Manager          |         ~~SDDM~~ , ly         |
 |             wallpaper             |            swaybg             |

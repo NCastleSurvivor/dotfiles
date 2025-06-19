@@ -6,7 +6,7 @@
 |                Bar                |            waybar             |
 |       Application Launcher        |         ~~Rofi~~,wofi         |
 |        Notification Daemon        |        Dunst,~~Make!~~        |
-|      network management tool      |        NetwoakManager         |
+|      network management tool      |        ~~NetwoakManager~~,iwd,dhcpcd         |
 |      Input method framework       |          fcitx-meta           |
 |           File Manager            |        ~~thunar~~,yazi        |
 |            Lockscreen             | ~~Gtklock,Swaylock~~ hyprlock |
